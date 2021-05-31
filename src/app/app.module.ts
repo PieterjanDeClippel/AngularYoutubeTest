@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { YoutubePlayerModule } from '@mintplayer/ng-youtube-player';
 
 import { AppComponent } from './app.component';
 
@@ -8,7 +9,8 @@ import { AppComponent } from './app.component';
     AppComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    YoutubePlayerModule
   ],
   providers: [],
   bootstrap: [AppComponent]
